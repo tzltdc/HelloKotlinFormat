@@ -13,6 +13,7 @@ import com.google.android.material.snackbar.Snackbar
 
 class MainActivity : AppCompatActivity() {
 
+  //test commit without installing the hooks with command line ` pre-commit install`
   private
   lateinit
   var appBarConfiguration: AppBarConfiguration
