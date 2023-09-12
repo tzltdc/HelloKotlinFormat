@@ -1,0 +1,7 @@
+repos:
+  - repo: https://github.com/davehadley/ktfmt-pre-commit-hook
+    rev: 0.7.0
+    hooks:
+      - id: ktfmt
+        args: [ --version=0.44, --google-style ]
+        stages: [ commit ]
