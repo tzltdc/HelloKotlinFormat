@@ -13,10 +13,8 @@ import com.google.android.material.snackbar.Snackbar
 
 class MainActivity : AppCompatActivity() {
 
-  //test commit without installing the hooks with command line ` pre-commit install`
-  private
-  lateinit
-  var appBarConfiguration: AppBarConfiguration
+  // test commit without installing the hooks with command line ` pre-commit install`
+  private lateinit var appBarConfiguration: AppBarConfiguration
   private lateinit var binding: ActivityMainBinding
 
   override fun onCreate(savedInstanceState: Bundle?) {
@@ -32,7 +30,7 @@ class MainActivity : AppCompatActivity() {
     setupActionBarWithNavController(navController, appBarConfiguration)
 
     binding.fab.setOnClickListener { view ->
-      Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+      Snackbar.make(view, "Replace with your own action.", Snackbar.LENGTH_LONG)
         .setAction("Action", null)
         .show()
     }
